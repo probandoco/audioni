@@ -1,0 +1,62 @@
+section {
+	border: none;
+  margin-right: 20px;
+  padding-left: 20px;
+  width: 920px;
+}
+
+table.table-promo-jingles thead tr {
+  background-color: #EDEDED;
+  font-size: 16pt;
+  font-weight: lighter;
+  padding: 5px 0px;
+  font-family: 'TitilliumWebLight';
+}
+
+table.table-promo-jingles tbody tr td div {
+  text-align: left;
+  padding: 0 5px;
+}
+
+ul#tabs li.active a {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #503083;
+  border-color: #503083 #503083 transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px 10px 0 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+table.table-promo-jingles td {
+  border: 1px solid #575756;
+}
+
+table.table-promo-jingles tbody td {
+  font-family: Arial;
+  font-size: 10pt;
+}
+
+ul#tabs li a {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #3C3C3B;
+  border-color: #3C3C3B #3C3C3B transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px 10px 0 0;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}

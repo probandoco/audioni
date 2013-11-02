@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Audioni</title>
+		<link href="css/normalize.css" type="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="css/tooltip.css" type="text/css" rel="stylesheet" />
+		<link href="css/fonts/titilliumweb-regular.css" type="text/css" rel="stylesheet" />
+		<link href="css/fonts/titilliumweb-light.css" type="text/css" rel="stylesheet" />
+		<link href="css/fonts/titilliumweb-semibold.css" type="text/css" rel="stylesheet" />
+		<link href="audioni_pantalla2.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div id="container-header">
+			<header>
+				<div id="logo"
+					<a href="#" class="first">
+						<img src="images/logo_audioni.png" />
+					</a>
+				</div>
+				<nav>
+					<a href="#" class="first">Contactar</a>
+					<a href="#">Productos</a>
+					<a href="#">Vídeo</a>
+					<a href="#">Acceder</a>
+					<a href="#" class="last">Probar</a>
+				</nav>
+			</header>
+		</div>
+
+		<div id="container">
+
+			<ul class="main-menu">
+
+				<li class="first">
+					Bienvenido: Nombre Administrador
+				</li>
+				<li class="active">
+					<a href="#">Gestión de emisoras</a>
+				</li>
+				<li class="inactive">
+					<a href="#">Franjas</a>
+				</li>
+				<li class="inactive">
+					<a href="#">Informes</a>
+				</li>
+				<li class="inactive">
+					<a href="#">Promos y jingles</a>
+				</li>
+			</ul>
+
+			<div class="clearfix"></div>
+
+			<aside>
+				<ul id="menu-create">
+					<li>
+						Crear: 
+					</li>
+					<li>
+						<a href="#">+ categoría</a>
+					</li>
+					<li>
+						<a href="#">+ emisora</a>
+					</li>
+					<li>
+						<a href="#">+ punto</a>
+					</li>
+				</ul>
+
+				<div class="clearfix" style="margin-bottom: 10px"></div>
+
+				<ul class="menu-emisoras">
+					<li class="category selected">
+						Categoría 1 / Emisora X
+					</li>
+					<li class="item">
+						<a href="#">Punto de emision 1</a>
+					</li>
+					<li class="item">
+						<a href="#">Punto de emision 2</a>
+					</li>
+					<li class="item">
+						<a href="#">Punto de emision 3</a>
+					</li>
+				</ul>
+
+			</aside>
+
+			<section>
+				<article>
+					
+					<h1>Local CM Calima</h1>
+					
+					<p class="text-mini fl-right">estado de la señal: <img src="images/sign.png" /></p> 
+
+					<div class="clearfix"></div>
+
+					<table style="width: 100%">
+						<tr>
+							<td>
+								<p>Localización: Bogotá, Colombia</p><p>Dirección: Cr. 30 # 19 - 46</p>
+							</td>
+							<td>
+								<p>Contacto: tel: 344 18 29 - cel: 312 433 5576</p><p>Encargado: José Alfredo Muños Daza</p>
+							</td>
+							<td>
+								<p>E-mail: correo@correo.com</p><p>&nbsp;</p>
+							</td>
+						</tr>
+
+					</table>
+
+					<hr>
+					
+					<h1><img src="images/icon-lock.png" />Permisos</h1>
+					
+					<table style="width: 100%" id="table-permisos" class="ta-center">
+						<thead>
+							<tr>
+								<td>Emisoras</td>
+								<td>Franjas</td>
+								<td>Anuncios</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<label class="permiso-si">editar</label>
+								</td>
+								<td>
+									<label class="permiso-no">crear</label>
+									<label class="permiso-no">programar</label>
+								</td>
+								<td>
+									<label class="permiso-no">modificar</label>
+									<label class="permiso-no">añadir</label>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<hr>
+
+					<h1><img src="images/icon-admiracion.png" />Promos y jingles</h1>
+
+					<div class="clearfix"></div>
+
+					<h2>Frecuencia de Anuncios </h2>
+					<div class="overlay-tooltip-editar" style="margin-top: 8px;"><a href="#">----------</a></div>
+
+					<div class="clearfix"></div>
+
+					<div class="title-promos-jingles">
+
+						<div class="fl-left" style="width: 33%">
+							<label>Anuncios en cada espacio comercial:</label> <h1>1</h1>
+						</div>
+						
+						<div class="fl-left" style="width: 33%">
+							<label>Canciones sonando entre jingles:</label> <h1>3</h1>
+						</div>
+						
+						<div class="fl-left" style="width: 33%">
+							<label>Canciones sonando entre promos:</label> <h1>2</h1>
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
+
+					<table style="width: 100%" id="table-promo-jingles" class="ta-center">
+						<thead>
+							<tr>
+								<td>Anuncios</td>
+								<td>Tipo</td>
+								<td colspan="2">Periodo de Actividad</td>
+								<td>Activo</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<b>Promo_sep1.mp3</b>
+									<div class="options-image fl-right">
+										<a href="" class="tooltip"><img src="images/btn_play.png" /><span>Editar</span></a>
+										<a href="" class="tooltip"><img src="images/btn_calendario.png" /><span>Programacion Semanal</span></a>
+										<a href="" class="tooltip"><img src="images/btn_eliminar.png" /><span>Eliminar</span></a>
+									</div>
+								</td>
+								
+								<td>
+									<select>
+										<option>Promo</option>
+									</select>
+								</td>
+								
+								<td>16/10/2012</td>
+								
+								<td>22/10/2023</td>
+								
+								<td>
+									<input type="checkbox">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<b>medio_dia.mp3</b>
+									<div class="options-image fl-right">
+										<div class="overlay-tooltip-play"><a href="">---------</a></div>
+										<div class="overlay-tooltip-calendario"><a href="">------------------</a></div>
+										<div class="overlay-tooltip-eliminar"><a href="">---------</a></div>
+									</div>
+								</td>
+								
+								<td>
+									<select>
+										<option>Promo</option>
+									</select>
+								</td>
+								
+								<td>16/10/2012</td>
+								
+								<td>22/10/2023</td>
+								
+								<td>
+									<input type="checkbox">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<b>medio_dia_2.mp3</b>
+									<div class="options-image fl-right">
+										<div class="overlay-tooltip-play"><a href="">---------</a></div>
+										<div class="overlay-tooltip-calendario"><a href="">------------------</a></div>
+										<div class="overlay-tooltip-eliminar"><a href="">---------</a></div>
+									</div>
+								</td>
+								
+								<td>
+									<select>
+										<option>Promo</option>
+									</select>
+								</td>
+								
+								<td>16/10/2012</td>
+								
+								<td>22/10/2023</td>
+								
+								<td>
+									<input type="checkbox">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<hr>
+
+					<h1><img src="images/icon-wifi.png" />Emisora asignada</h1>
+
+					<div class="clearfix"></div>
+
+					<table style="width: 100%" id="emisora-asignada" class="ta-center">
+						<tbody>
+							<tr>
+								<td>
+									<h3>Tropical de Junio</h3> 
+									<div class="overlay-tooltip-editar">
+										<a href="#">----------</a>
+									</div>
+								</td>
+								<td>
+									Señal sincronizada <input type="checkbox" />
+								</td>
+								<td>
+									<select>
+										<option>Asignar a otra emisora</option>
+									</select>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<hr>
+
+				</article>
+			</section>
+			<div class="clearfix"></div>
+		</div>
+
+		<div class="clearfix"></div>
+	</body>
+</html>

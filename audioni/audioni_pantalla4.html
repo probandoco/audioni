@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Audioni</title>
+		<link href="css/normalize.css" type="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet" />
+		<link href="css/tango/skin.css" type="text/css" rel="stylesheet" />
+		<link href="css/fonts/titilliumweb-regular.css" type="text/css" rel="stylesheet" />
+		<link href="css/fonts/titilliumweb-light.css" type="text/css" rel="stylesheet" />
+		<link href="css/fonts/titilliumweb-semibold.css" type="text/css" rel="stylesheet" />
+		<link href="audioni_pantalla4.css" type="text/css" rel="stylesheet" />
+
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+
+		<script type="text/javascript">
+
+		jQuery(document).ready(function() {
+		    jQuery('ul#franjas').jcarousel({
+		    	
+		    });
+		});
+
+		</script>
+
+	</head>
+
+	<body>
+		<div id="container-header">
+			<header>
+				<div id="logo"
+					<a href="#" class="first">
+						<img src="images/logo_audioni.png" />
+					</a>
+				</div>
+				<nav>
+					<a href="#" class="first">Contactar</a>
+					<a href="#">Productos</a>
+					<a href="#">Vídeo</a>
+					<a href="#">Acceder</a>
+					<a href="#" class="last">Probar</a>
+				</nav>
+			</header>
+		</div>
+
+		<div id="container">
+
+			<ul class="main-menu">
+
+				<li class="first">
+					Bienvenido: Nombre Administrador
+				</li>
+				<li class="inactive">
+					<a href="#">Gestión de emisoras</a>
+				</li>
+				<li class="active">
+					<a href="#">Franjas</a>
+				</li>
+				<li class="inactive">
+					<a href="#">Informes</a>
+				</li>
+				<li class="inactive">
+					<a href="#">Promos y jingles</a>
+				</li>
+			</ul>
+
+			<div class="clearfix"></div>
+
+			<section>
+				<article>
+					<p class="title-edit-point">Nombre punto / Edicion emisora X</p>
+					
+					<div class="clearfix"></div>
+
+					<h1>Nombre de la Franja <a href="#"><img src="images/btn_editar.png" /></a></h1>
+
+					<select>
+						<option>5. Fran Verde</option>
+						<option>5. Fran Verde</option>
+						<option>5. Fran Verde</option>
+					</select>
+
+					<div class="clearfix"></div>
+
+					<div class="clearfix"></div>
+					
+
+					<div class="clearfix" style="height: 20px"></div>
+
+					<h2>Generos disponibles</h2>
+
+					<div class="clearfix" style="height: 10px"></div>
+
+					<ul id="franjas" class="jcarousel-skin-tango">
+						<li>
+							<div class="btn-group">
+							  <a class="btn btn-small dropdown-toggle" data-toggle="dropdown">
+							    Franja
+							    <span class="caret"></span>
+							  </a>
+							  <ul class="dropdown-menu">
+							    <li><a>1. Franja <input type="checkbox"></a></li>
+							    <li><a>2. Franja <input type="checkbox"></a></li>
+							    <li><a>3. Franja <input type="checkbox"></a></li>
+							    <li><a>4. Franja <input type="checkbox"></a></li>
+							    <li><a>5. Franja <input type="checkbox"></a></li>
+							  </ul>
+							</div>
+						</li>
+					</ul>
+					
+					<div class="clearfix" style="height: 10px"></div>
+
+					<button class="btn btn-samll btn-inverse" type="button">Guardar</button>
+					
+					<div class="clearfix" style="height: 10px"></div>
+
+				</article>
+			</section>
+			<div class="clearfix"></div>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				var lis = $('ul#franjas li').size();
+				$('ul#franjas').css({'width': ((lis/24) * 835) + 'px'});
+			});
+		</script>
+
+	</body>
+</html>

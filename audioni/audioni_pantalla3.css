@@ -1,0 +1,80 @@
+section {
+	border: none;
+    margin-right: 20px;
+    padding-left: 20px;
+    width: 920px;
+}
+
+section p.title-edit-point {
+	margin: 0;
+	font-size: 11px;
+	font-style: italic;
+	color: #3B3B3A;
+	border-bottom: 1px solid #1D1D1B;
+	float: left;
+	font-family: 'TitilliumWebSemiBold';
+}
+
+section table.grilla-programacion-semanal {
+	background: white;
+	font-family: 'TitilliumWebRegular';
+	font-size: 16px;
+}
+
+section table.grilla-programacion-semanal td {
+
+}
+
+section div.franja {
+	font-size: 14px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	padding: 4px;
+	width: 20px;
+}
+
+section div.jcarousel-skin-tango div.franja {
+	float: left;
+	padding: 2px 6px;
+	margin-right: 10px
+}
+
+section div.jcarousel-skin-tango div.franja:hover {
+	box-shadow: none;
+	border: none;
+	cursor: move;
+}
+
+section div.franja:hover {
+	-webkit-box-shadow: 1px 1px 1px #888;
+	box-shadow: 1px 1px 1px #888;
+	border: 1px solid #888;
+	padding: 3px;
+	cursor: pointer;
+}
+
+section div.azul {
+	background: #0069B4;
+}
+
+section div.rojo {
+	background: #935B01;
+}
+
+section div.morado {
+	background: #951B81;
+}
+
+section div.amarillo {
+	background: #FFCC00;
+}
+
+section div.verde {
+	background: #8A1104;
+}
+
+section div.form-programacion-rapida {
+	float: left;
+    margin: 5px 0 0 20px;
+}
